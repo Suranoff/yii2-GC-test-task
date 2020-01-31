@@ -1,0 +1,66 @@
+2020-01-30 21:04:35 [37.19.78.11][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 37.19.78.11
+    in /home/r/romans5x/test.romans5x.beget.tech/public_html/views/layouts/main.php:78
+    in /home/r/romans5x/test.romans5x.beget.tech/public_html/controllers/SiteController.php:64
+2020-01-30 21:04:35 [37.19.78.11][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 37.19.78.11
+2020-01-30 21:04:35 [37.19.78.11][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'XjMaswVlnHgAABu4-hIAAAAG'
+    'MMDB_ADDR' => '37.19.78.11'
+    'GEOIP_ADDR' => '37.19.78.11'
+    'MMDB_INFO' => 'result found'
+    'GEOIP_LONGITUDE' => '40.35000'
+    'GEOIP_CONTINENT_CODE' => 'EU'
+    'GEOIP_LATITUDE' => '56.18330'
+    'GEOIP_POSTAL_CODE' => '601280'
+    'GEOIP_COUNTRY_CODE' => 'RU'
+    'GEOIP_COUNTRY_NAME' => 'Russia'
+    'GEOIP_REGION' => 'VLA'
+    'GEOIP_CITY' => 'Vladimir'
+    'PERL_USE_UNSAFE_INC' => '1'
+    'HTTP_HOST' => 'test.romans5x.beget.tech'
+    'HTTP_X_SERVER_ADDR' => '5.101.152.120'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '37.19.78.11'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Unix) Server at test.romans5x.beget.tech Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix)'
+    'SERVER_NAME' => 'test.romans5x.beget.tech'
+    'SERVER_ADDR' => '5.101.152.120'
+    'SERVER_PORT' => '80'
+    'REQUEST_SCHEME' => 'http'
+    'REMOTE_ADDR' => '37.19.78.11'
+    'DOCUMENT_ROOT' => '/home/r/romans5x/test.romans5x.beget.tech/public_html'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/r/romans5x/test.romans5x.beget.tech/public_html'
+    'SERVER_ADMIN' => 'webmaster@test.romans5x.beget.tech'
+    'SCRIPT_FILENAME' => '/home/r/romans5x/test.romans5x.beget.tech/public_html/web/index.php'
+    'REMOTE_PORT' => '28803'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/index.php'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1580407475.764
+    'REQUEST_TIME' => 1580407475
+    'argv' => []
+    'argc' => 0
+]
