@@ -9,6 +9,8 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\Book;
+use yii\data\ActiveDataProvider;
 
 class SiteController extends Controller
 {
@@ -124,5 +126,22 @@ class SiteController extends Controller
     public function actionAbout()
     {
         return $this->render('about');
+    }
+
+    /**
+     * Displays books page.
+     *
+     * @return string
+     */
+    public function actionBooks()
+    {
+        $dataProvider = new ActiveDataProvider([
+            'query' => Book::find()->with(['authors']),
+            'pagination' => [
+                'pageSize' => 20,
+            ],
+        ]);
+        $this->view->title = 'Books with authors list';
+        return $this->render('books', ['listDataProvider' => $dataProvider]);
     }
 }
